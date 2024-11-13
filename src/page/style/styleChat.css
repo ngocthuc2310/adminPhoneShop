@@ -1,0 +1,84 @@
+.main1 {
+  border-radius: 9px;
+  border: none;
+}
+.main1 p {
+  text-align: left;
+}
+.body {
+  width: 1000px;
+  height: 580px;
+  position: relative;
+}
+.chat {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.rooms {
+  width: 250px;
+  height: 463px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  overflow: auto;
+}
+.rooms > * {
+  margin: 8px 0;
+  padding: 8px;
+}
+.rooms input {
+  width: 90%;
+}
+.rooms > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.send {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 1px solid #767171;
+  padding: 15px;
+}
+.send input {
+  width: 94%;
+  border: none;
+  font-size: 20px;
+}
+.rooms h2,
+.rooms p {
+  margin: 8px;
+  padding: 4px;
+}
+.content {
+  width: 100%;
+  padding: 8px;
+  height: 444px;
+  overflow: auto;
+}
+.client {
+  text-align: left;
+}
+.ad {
+  text-align: right;
+}
+.client span {
+  background-color: #e4fbf8;
+  padding: 3px;
+}
+.ad span {
+  background-color: #eef5ff;
+  padding: 3px;
+}
+.rooms > div {
+  cursor: pointer;
+  margin: 0;
+}
+.content > div {
+  margin: 10px;
+}
