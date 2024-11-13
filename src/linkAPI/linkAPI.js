@@ -1,6 +1,6 @@
 // const link = "http://localhost:5000";
-const link = "https://shop-38kh.onrender.com";
-exports.link = "https://shop-38kh.onrender.com";
+const link = "http://localhost:5000";
+exports.link = "http://localhost:5000";
 
 exports.listProduct = link + "/listproduct";
 exports.searchProduct = link + "/search";
